@@ -2,7 +2,7 @@
 
 Hello Dear Freinds!
 
-My name is Nerya Elul, 
+My name is Nerya, 
 
 And this is my test for the CloudZone company, 
 A connection between **AWS** tools: **Lambda, API Gateway, Dynamodb**
