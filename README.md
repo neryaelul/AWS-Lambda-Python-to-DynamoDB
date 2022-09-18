@@ -11,25 +11,27 @@ I also Put the class file, and put the full code of Lambda function
 
 ## Installation
 
-Get customersDB Class To Your Code and put your DynamoDB Table like this
+Get customersDB Class To Your Code and put your DynamoDB Table
 
 ```bash
 customers = customersDB('MyTable')
 ```
 
-## API Request Example
+## API Examples
 ### Header Authorization 
 ```
 Authorization: neryanerya
 ```
 ### GET - Check Id
-#### Example Request
-```
-id=MyId
-```
+#### URL
+```https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server```
 
-#### URL: ```
-https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server?id=MyId```
+#### Params
+```id: MyId```
+
+#### Example Request: 
+```https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server?id=MyId```
+
 #### Example Response
 ```
 {
@@ -41,10 +43,8 @@ https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server?id=MyId```
 
 ### PUT - Add New
 #### Example Request
-### URL 
-```
-https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server
-```
+#### URL 
+```https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server```
 #### Body
 ```
 {
@@ -63,5 +63,5 @@ https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server
 }
 ```
 
-### By Nerya Elul
+#### By Nerya Elul
 
