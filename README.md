@@ -28,7 +28,7 @@ Authorization: neryanerya
 id=MyId
 ```
 
-URL: ```
+#### URL: ```
 https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server?id=MyId```
 #### Example Response
 ```
@@ -41,11 +41,11 @@ https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server?id=MyId```
 
 ### PUT - Add New
 #### Example Request
-URL: 
+### URL 
 ```
 https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server
 ```
-### Body
+#### Body
 ```
 {
   "tasktype": "create",
