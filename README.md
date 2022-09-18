@@ -1,4 +1,4 @@
-# LambdaCloudZoneTest - Nerya Elul 
+# CloudZone Test - Nerya Elul 
 
 Hello Dear Freinds!
 
