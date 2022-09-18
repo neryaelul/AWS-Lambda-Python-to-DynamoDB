@@ -29,7 +29,7 @@ id=MyId
 ```
 
 URL: ```
-https://j7u5ydav73.execute-api.eu-west-1.amazonaws.com/prod/server?id=MyId```
+https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server?id=MyId```
 #### Example Response
 ```
 {
@@ -41,10 +41,11 @@ https://j7u5ydav73.execute-api.eu-west-1.amazonaws.com/prod/server?id=MyId```
 
 ### PUT - Add New
 #### Example Request
-URL: ```
-https://j7u5ydav73.execute-api.eu-west-1.amazonaws.com/prod/server```
-
-
+URL: 
+```
+https://s73edk94da.execute-api.eu-west-1.amazonaws.com/default/server
+```
+### Body
 ```
 {
   "tasktype": "create",
