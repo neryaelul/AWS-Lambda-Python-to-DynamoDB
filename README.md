@@ -18,6 +18,10 @@ customers = customersDB('MyTable')
 ```
 
 ## API Request Example
+### Header Authorization 
+```
+Authorization: neryanerya
+```
 ### GET - Check Id
 #### Example Request
 ```
