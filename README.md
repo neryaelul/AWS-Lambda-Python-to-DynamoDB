@@ -1,7 +1,13 @@
-# LambdaCloudZoneTest
-# CloudZone TEST - Nerya Elul
+# LambdaCloudZoneTest - Nerya Elul 
 
-Foobar is a Python library for dealing with word pluralization.
+Hello Dear Freinds!
+
+My name is Nerya Elul, 
+
+And this is my test for the CloudZone company, 
+A connection between **AWS** tools: **Lambda, API Gateway, Dynamodb**
+
+I also Put the class file, and put the full code of Lambda function
 
 ## Installation
 
@@ -53,9 +59,7 @@ https://j7u5ydav73.execute-api.eu-west-1.amazonaws.com/prod/server```
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
