@@ -25,6 +25,7 @@ class customersDB:
         return True
 def lambda_handler(event, context):
     
+    # if event['authorizationToken'] = 'nerya':
         customers = customersDB('customers_ids')
         
         if event and event['httpMethod']:
