@@ -5,7 +5,7 @@ Hello dear friends!
 My name is Nerya, 
 
 And this is my test for the CloudZone Company, 
-A connection between **AWS** tools: **Lambda, API Gateway, Dynamodb**
+A connection between **AWS** tools: **Lambda, API Gateway, DynamoDB**
 
 I also Put the class file, and put the full code of Lambda function
 
