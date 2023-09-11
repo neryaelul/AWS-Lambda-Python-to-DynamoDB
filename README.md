@@ -1,4 +1,4 @@
-# CloudZone Test - Nerya Elul 
+# Nerya Elul 
 
 Hello dear friends!
 
