@@ -1,6 +1,6 @@
 import json
 import boto3
-from udb import customersDB 
+from cdb import customersDB 
 def lambda_handler(event, context):
     
    
