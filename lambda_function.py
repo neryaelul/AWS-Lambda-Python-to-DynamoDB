@@ -1,36 +1,14 @@
 import json
 import boto3
-
-class customersDB:
-    def __init__(self,dynamoDBTable):
-        self.client = boto3.resource('dynamodb')
-        self.tableDynamoDB = dynamoDBTable
-        self.table = self.client.Table(self.tableDynamoDB)
-    def get(self,CustomerId):
-        response = self.table.get_item(
-            Key={
-                'id': CustomerId
-            }
-        )
-        if 'Item' in response:
-            return True
-        else:
-            return False
-    def create(self,CustomerId):
-        self.table.put_item(
-                Item={
-                    'id': CustomerId
-                }
-            )
-        return True
+from udb import customersDB 
 def lambda_handler(event, context):
     
-    # if event['authorizationToken'] = 'nerya':
-        customers = customersDB('customers_ids')
+   
+        customers = customersDB('customers')
         
         if event and event['httpMethod']:
             Authorization = event['headers'].get('Authorization', None)
-            if Authorization != None and event['headers']['Authorization'] == 'neryanerya':
+            if Authorization != None and event['headers']['Authorization'] == 'test':
                 
                 if event['httpMethod'] == "PUT":
                     bodyJson2Arr = json.loads(event['body'])
@@ -89,4 +67,3 @@ def lambda_handler(event, context):
             'statusCode': statusCode,
             'body': json.dumps(jsonDataBody)
         }
-        
